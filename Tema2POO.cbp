@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Tema2POO" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/Tema2POO" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Agent.h" />
+		<Unit filename="include/Armor.h" />
+		<Unit filename="include/Arrow.h" />
+		<Unit filename="include/BattleAxe.h" />
+		<Unit filename="include/Bow.h" />
+		<Unit filename="include/Game.h" />
+		<Unit filename="include/HeavyArmor.h" />
+		<Unit filename="include/LightArmor.h" />
+		<Unit filename="include/Map.h" />
+		<Unit filename="include/MediumArmor.h" />
+		<Unit filename="include/Scout.h" />
+		<Unit filename="include/Sword.h" />
+		<Unit filename="include/Weapon.h" />
+		<Unit filename="include/XorShift.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="seed.in" />
+		<Unit filename="src/Agent.cpp" />
+		<Unit filename="src/Armor.cpp" />
+		<Unit filename="src/Arrow.cpp" />
+		<Unit filename="src/BattleAxe.cpp" />
+		<Unit filename="src/Bow.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/HeavyArmor.cpp" />
+		<Unit filename="src/LightArmor.cpp" />
+		<Unit filename="src/Map.cpp" />
+		<Unit filename="src/MediumArmor.cpp" />
+		<Unit filename="src/Scout.cpp" />
+		<Unit filename="src/Sword.cpp" />
+		<Unit filename="src/Weapon.cpp" />
+		<Unit filename="src/XorShift.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

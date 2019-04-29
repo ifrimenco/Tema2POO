@@ -1,0 +1,121 @@
+# depslib dependency file v1.0
+1556553265 source:d:\work\tema2poo\main.cpp
+	<iostream>
+	<cstdio>
+	<fstream>
+	"Game.h"
+
+1556480853 d:\work\tema2poo\include\map.h
+	"Agent.h"
+	"Weapon.h"
+	"Armor.h"
+	"XorShift.h"
+
+1556552242 source:d:\work\tema2poo\src\map.cpp
+	"Map.h"
+	<iostream>
+
+1556553063 source:d:\work\tema2poo\src\agent.cpp
+	"Agent.h"
+	<iostream>
+
+1556552901 d:\work\tema2poo\include\agent.h
+	<utility>
+	<string>
+	"Weapon.h"
+	"Armor.h"
+	"XorShift.h"
+
+1556202710 d:\work\tema2poo\include\xorshift.h
+
+1556202790 source:d:\work\tema2poo\src\xorshift.cpp
+	"XorShift.h"
+	<fstream>
+
+1556552047 d:\work\tema2poo\include\weapon.h
+	<utility>
+	<string>
+
+1556552001 d:\work\tema2poo\include\armor.h
+	<string>
+
+1556538734 source:d:\work\tema2poo\src\armor.cpp
+	"Armor.h"
+	<iostream>
+
+1556476041 source:d:\work\tema2poo\src\weapon.cpp
+	"Weapon.h"
+
+1556552996 source:d:\work\tema2poo\src\scout.cpp
+	"Scout.h"
+	<iostream>
+
+1556553007 d:\work\tema2poo\include\scout.h
+	<Agent.h>
+
+1556538823 source:d:\work\tema2poo\src\bow.cpp
+	"Bow.h"
+	<iostream>
+
+1556475550 d:\work\tema2poo\include\bow.h
+	<Weapon.h>
+	"Arrow.h"
+
+1556550994 d:\work\tema2poo\include\game.h
+	"Map.h"
+	"Agent.h"
+	"XorShift.h"
+	"Scout.h"
+	"Weapon.h"
+	"Armor.h"
+	"Bow.h"
+	"BattleAxe.h"
+	"Sword.h"
+	"LightArmor.h"
+	"MediumArmor.h"
+	"HeavyArmor.h"
+	<vector>
+	<fstream>
+	<set>
+
+1556553163 source:d:\work\tema2poo\src\game.cpp
+	"Game.h"
+	<iostream>
+	<queue>
+
+1556476362 source:d:\work\tema2poo\src\sword.cpp
+	"Sword.h"
+
+1556532462 d:\work\tema2poo\include\sword.h
+	"Weapon.h"
+
+1556471544 d:\work\tema2poo\include\lightarmor.h
+	<Armor.h>
+
+1556476996 d:\work\tema2poo\include\mediumarmor.h
+	<Armor.h>
+
+1556471586 d:\work\tema2poo\include\heavyarmor.h
+	<Armor.h>
+
+1556552988 source:d:\work\tema2poo\src\arrow.cpp
+	"Arrow.h"
+
+1556532442 d:\work\tema2poo\include\arrow.h
+	<Weapon.h>
+
+1556476961 source:d:\work\tema2poo\src\heavyarmor.cpp
+	"HeavyArmor.h"
+
+1556476861 source:d:\work\tema2poo\src\lightarmor.cpp
+	"LightArmor.h"
+
+1556476977 source:d:\work\tema2poo\src\mediumarmor.cpp
+	"MediumArmor.h"
+
+1556475365 source:d:\work\tema2poo\src\battleaxe.cpp
+	"BattleAxe.h"
+
+1556532421 d:\work\tema2poo\include\battleaxe.h
+	<Weapon.h>
+
